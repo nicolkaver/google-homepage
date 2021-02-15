@@ -1,0 +1,82 @@
+<html>
+  <head>
+      <title>Google</title>
+      <link rel="icon" href="images/google-icon.png" type="image/gif">
+  </head>
+  <style>
+      #input{
+          background-image:url('images/magnifying-glass.png');
+          background-size: 15px;
+          background-position: 3%;
+          background-repeat: no-repeat;
+          border-radius: 40px;
+          width: 580px;
+          height: 45px;
+          text-align: left: 20px;
+          border: 1px solid #d4cccc;
+          position: left;
+      }
+      .google-logo{
+          text-align: center;
+          margin-top: 60px;
+      }
+      .center{
+          text-align: center;
+          margin-top: 30px;
+      }
+      #recherche{
+          border: 1px solid #f8f9fa;
+          padding: 12px 14px;
+          background-color: #f8f9fa;
+          border-radius: 4px;
+          margin-top: 35px; 
+          margin-left: 530px;
+          font-family: arial, sans-serif;
+          font-size: 14px;
+          color:#3c4043
+      }
+      #luck{
+        border: 1px solid #f8f9fa;
+        padding: 12px 14px;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+        margin-top: -58px; 
+        margin-left: 700px;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        color:#3c4043
+      }
+      #language{
+          display: inline-block;
+          text-align: center;
+          line-height: 60px;
+          margin-left: 600px;
+          font-size: small;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #222;
+      }
+      a{
+          color: #1a0dab;
+          text-decoration: none;
+      }
+      a:hover{
+          text-decoration: underline;
+      }
+      #recherche:hover{
+          border: 1.5px;
+          box-shadow: 1.5px 1.5px darkgray;
+      }
+      #luck:hover{
+          border: 1.5px;
+          border-color: rgb(85, 81, 81);
+      }
+  </style>
+  <body>
+      <p class="google-logo"><img src="images/googlelogo_color_272x92dp.png" alt="google"></p>
+      <div class="center"><input type="text" id="input" results="0"></div>
+      <div><input type="submit" id="recherche" value="Recherche Google"></div> 
+      <div><input type="submit" id="luck" value="J'ai de la chance"></div>
+      <p id="language">Google disponible en : <a href="#">English</a></p>
+  </body>
+
+</html>
